@@ -1,11 +1,11 @@
 {
-  "name": "chapter_19",
+  "name": "ui-lib-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node_modules/.bin/webpack",
-    "serve": "webpack serve"
+    "build": "node_modules/.bin/webpack --mode production",
+    "serve": "webpack serve --mode development"
   },
   "author": "",
   "license": "ISC",

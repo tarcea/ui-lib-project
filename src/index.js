@@ -24,4 +24,4 @@ const snackbar = new Snackbar();
 snackbar.init()
 
 const button = document.querySelector('.snackbar-trigger');
-button.addEventListener('click', () => snackbar.show('ce faci gogule????'));
+button.addEventListener('click', () => snackbar.show('Gogu was here :-)'));
